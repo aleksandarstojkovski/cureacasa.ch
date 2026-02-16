@@ -1,0 +1,45 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { ArrowRight, Activity } from 'lucide-react';
+
+const Hero = () => {
+    return (
+        <section className="relative py-20 lg:py-32 bg-slate-50 overflow-hidden">
+            <div className="container mx-auto px-4 md:px-6 relative z-10">
+                <div className="max-w-3xl">
+                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-50 text-secondary-600 text-sm font-medium mb-6">
+                        <Activity className="h-4 w-4" />
+                        <span>Infermiere Indipendente in Ticino</span>
+                    </div>
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 tracking-tight mb-6">
+                        Cura e Assistenza Professionale <br className="hidden lg:block" /> Direttamente a Casa Tua
+                    </h1>
+                    <p className="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl">
+                        Offro servizi infermieristici personalizzati con competenza e umanità.
+                        Il mio obiettivo è garantire il benessere e la serenità dei pazienti nel comfort del proprio domicilio.
+                    </p>
+                    <div className="flex flex-col sm:flex-row gap-4">
+                        <Link
+                            to="/contact"
+                            className="inline-flex justify-center items-center px-6 py-3 bg-brand-green text-white rounded-lg hover:opacity-90 transition-opacity font-semibold shadow-lg shadow-secondary-200"
+                        >
+                            Prenota una Visita
+                            <ArrowRight className="ml-2 h-5 w-5" />
+                        </Link>
+                        <Link
+                            to="/services"
+                            className="inline-flex justify-center items-center px-6 py-3 bg-white text-slate-700 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors font-medium"
+                        >
+                            Scopri i Servizi
+                        </Link>
+                    </div>
+                </div>
+            </div>
+
+            {/* Decorative background element */}
+            <div className="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[600px] h-[600px] bg-secondary-50 rounded-full blur-3xl opacity-50 z-0 pointer-events-none"></div>
+        </section>
+    );
+};
+
+export default Hero;

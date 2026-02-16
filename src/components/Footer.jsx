@@ -1,0 +1,60 @@
+import React from 'react';
+import { Mail, Phone, MapPin, Heart } from 'lucide-react';
+
+const Footer = () => {
+    return (
+        <footer className="bg-slate-50 border-t border-slate-100 pt-12 pb-8">
+            <div className="container mx-auto px-4 md:px-6">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                    {/* Brand Column */}
+                    <div>
+                        <div className="flex items-center gap-2 mb-4">
+                            <img src="/src/assets/logo-icon.png" alt="Logo" className="h-12 w-auto" />
+                            <img src="/src/assets/logo-text.png" alt="Cure a Casa" className="h-10 w-auto" />
+                        </div>
+                        <p className="text-slate-500 text-sm leading-relaxed max-w-xs">
+                            Servizi infermieristici professionali e dedicati nel Canton Ticino.
+                            La tua salute è la mia priorità.
+                        </p>
+                    </div>
+
+                    {/* Quick Links */}
+                    <div>
+                        <h3 className="font-semibold text-slate-800 mb-4">Collegamenti</h3>
+                        <ul className="space-y-2 text-sm">
+                            <li><a href="/" className="text-slate-500 hover:text-primary-700">Home</a></li>
+                            <li><a href="/about" className="text-slate-500 hover:text-primary-700">Chi Sono</a></li>
+                            <li><a href="/services" className="text-slate-500 hover:text-primary-700">Servizi</a></li>
+                            <li><a href="/contact" className="text-slate-500 hover:text-primary-700">Contatti</a></li>
+                        </ul>
+                    </div>
+
+                    {/* Contact Info */}
+                    <div>
+                        <h3 className="font-semibold text-slate-800 mb-4">Contatti</h3>
+                        <ul className="space-y-3 text-sm">
+                            <li className="flex items-start gap-3 text-slate-500">
+                                <MapPin className="h-5 w-5 text-secondary-600 shrink-0" />
+                                <span>Ticino, Svizzera</span>
+                            </li>
+                            <li className="flex items-center gap-3 text-slate-500">
+                                <Phone className="h-5 w-5 text-secondary-600 shrink-0" />
+                                <span>+41 76 818 03 17</span>
+                            </li>
+                            <li className="flex items-center gap-3 text-slate-500">
+                                <Mail className="h-5 w-5 text-secondary-600 shrink-0" />
+                                <span>natasha@cureacasa.ch</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="border-t border-slate-200 pt-8 text-center text-slate-400 text-sm">
+                    <p>&copy; {new Date().getFullYear()} Cure a Casa. Tutti i diritti riservati.</p>
+                </div>
+            </div>
+        </footer>
+    );
+};
+
+export default Footer;

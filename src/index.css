@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-blue: #00476b;
+  --color-brand-green: #8fb44b;
+
+  /* Map legacy primary/secondary to new brand colors if needed, 
+     but we are using brand-* classes now. */
+  --color-primary-600: #00476b;
+  --color-primary-700: #003956;
+  --color-secondary-500: #8fb44b;
+  --color-secondary-600: #72903c;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
