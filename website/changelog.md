@@ -12,3 +12,6 @@ Date | Operation | File | Backup | Description
 2026-02-17 23:06:00 | MODIFY | src/components/Footer.jsx | src/components/Footer.jsx.backup-20260217230623 | Updated image paths from /src/assets/ to / for public folder
 2026-02-17 23:06:00 | MODIFY | src/components/About.jsx | src/components/About.jsx.backup-20260217230623 | Updated profile image path from /src/assets/ to / for public folder
 2026-02-17 23:06:00 | MODIFY | src/components/SEO.jsx | src/components/SEO.jsx.backup-20260217230623 | Updated Open Graph and Twitter meta image paths from /src/assets/ to / for public folder
+2026-02-17 23:23:00 | CREATE | public/.htaccess | N/A | Added .htaccess to handle SPA routing and fix 404 errors on page refresh
+2026-02-17 23:24:00 | DELETE | Multiple Files | N/A | Cleaned up project: removed all backup files/folders, unused assets (Gemini images, old logos), and unused scripts (extract_colors.js)
+2026-02-17 23:25:00 | RENAME | public/profile.png | N/A | Renamed profile.png to natasha-maslarova.png for better semantics
