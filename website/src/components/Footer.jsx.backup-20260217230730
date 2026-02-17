@@ -9,8 +9,8 @@ const Footer = () => {
                     {/* Brand Column */}
                     <div>
                         <div className="flex items-center gap-2 mb-4">
-                            <img src="/logo-icon.png" alt="Logo" className="h-12 w-auto" />
-                            <img src="/logo-text.png" alt="Cure a Casa" className="h-10 w-auto" />
+                            <img src="/src/assets/logo-icon.png" alt="Logo" className="h-12 w-auto" />
+                            <img src="/src/assets/logo-text.png" alt="Cure a Casa" className="h-10 w-auto" />
                         </div>
                         <p className="text-slate-500 text-sm leading-relaxed max-w-xs">
                             Servizi infermieristici professionali e dedicati nel Canton Ticino.

@@ -7,8 +7,3 @@ Date | Operation | File | Backup | Description
 2026-02-16 23:56:00 | MODIFY | src/components/About.jsx | N/A | Removed experience and passion stats from About section
 2026-02-17 00:03:00 | MOVE | src/assets/ | N/A | Moved Gemini_Generated_Image.png, logo.png, text.png to src/assets/
 2026-02-17 00:20:00 | ASSET | src/assets/profile.png | src/assets/profile.png.backup-20260217002000 | Replaced profile image with new user provided jpg
-2026-02-17 23:06:00 | MOVE | public/ | public.backup-20260217230623 | Copied all PNG assets from src/assets/ to public/ folder for proper deployment
-2026-02-17 23:06:00 | MODIFY | src/components/Header.jsx | src/components/Header.jsx.backup-20260217230623 | Updated image paths from /src/assets/ to / for public folder
-2026-02-17 23:06:00 | MODIFY | src/components/Footer.jsx | src/components/Footer.jsx.backup-20260217230623 | Updated image paths from /src/assets/ to / for public folder
-2026-02-17 23:06:00 | MODIFY | src/components/About.jsx | src/components/About.jsx.backup-20260217230623 | Updated profile image path from /src/assets/ to / for public folder
-2026-02-17 23:06:00 | MODIFY | src/components/SEO.jsx | src/components/SEO.jsx.backup-20260217230623 | Updated Open Graph and Twitter meta image paths from /src/assets/ to / for public folder
