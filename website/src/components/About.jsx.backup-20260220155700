@@ -5,9 +5,9 @@ const About = () => {
     return (
         <section id="about" className="py-16 md:py-24 bg-white">
             <SEO
-                title="Chi Sono - Infermiera Indipendente Locarno e dintorni"
-                description="Natasha Maslarova, infermiera indipendente qualificata attiva a Locarno e dintorni. Esperienza, professionalità e un approccio umano alle cure domiciliari."
-                keywords="chi sono infermiera, profilo professionale, Natasha Maslarova, infermiera Locarno, esperienza infermieristica"
+                title="Chi Sono - Infermiera Indipendente Ticino"
+                description="Natasha Maslarova, infermiera indipendente qualificata attiva nel Canton Ticino. Esperienza, professionalità e un approccio umano alle cure domiciliari."
+                keywords="chi sono infermiera, profilo professionale, Natasha Maslarova, infermiera Ticino, esperienza infermieristica"
                 canonical="https://cureacasa.ch/about"
             />
             <div className="container mx-auto px-4 md:px-6">
@@ -32,7 +32,7 @@ const About = () => {
                             </p>
                         </div>
                         <p className="text-slate-600 mb-6 leading-relaxed">
-                            Mi chiamo Natasha Maslarova e sono un'infermiera indipendente attiva a Locarno e dintorni.
+                            Mi chiamo Natasha Maslarova e sono un'infermiera indipendente attiva nel Canton Ticino.
                             Con anni di esperienza nel settore sanitario, ho deciso di dedicarmi all'assistenza domiciliare
                             per poter seguire i miei pazienti con maggiore attenzione e dedizione.
                         </p>

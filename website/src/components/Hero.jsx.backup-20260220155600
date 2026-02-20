@@ -7,9 +7,9 @@ const Hero = () => {
     return (
         <section className="relative py-20 lg:py-32 bg-[#ecf5fa] overflow-hidden">
             <SEO
-                title="Infermiera a Domicilio Locarno e dintorni"
-                description="Servizi infermieristici professionali a domicilio a Locarno e dintorni. Cure personalizzate, iniezioni, medicazioni e assistenza sanitaria qualificata direttamente a casa tua."
-                keywords="infermiera a domicilio, infermiera Locarno, cure a domicilio Locarno, assistenza domiciliare, sanità a casa, iniezioni a domicilio, medicazioni"
+                title="Infermiera a Domicilio Locarno e Ticino"
+                description="Servizi infermieristici professionali a domicilio a Locarno e in tutto il Ticino. Cure personalizzate, iniezioni, medicazioni e assistenza sanitaria qualificata direttamente a casa tua."
+                keywords="infermiera a domicilio, infermiera Locarno, cure a domicilio Ticino, assistenza domiciliare, sanità a casa, iniezioni a domicilio, medicazioni"
                 canonical="https://cureacasa.ch/"
             />
             {/* Background Decorative Elements */}
@@ -37,7 +37,7 @@ const Hero = () => {
                         <div className="flex flex-col items-start gap-3 mb-6">
                             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white text-primary-600 text-sm font-medium shadow-sm border border-primary-100">
                                 <Activity className="h-4 w-4" />
-                                <span>Infermiera Indipendente a Locarno e dintorni</span>
+                                <span>Infermiera Indipendente in Ticino</span>
                             </div>
                             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-sm font-medium shadow-sm border border-primary-100">
                                 <Check className="h-4 w-4 text-emerald-600" />

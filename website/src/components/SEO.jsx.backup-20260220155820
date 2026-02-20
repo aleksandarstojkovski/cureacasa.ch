@@ -26,8 +26,8 @@ const SEO = ({ title, description, keywords, canonical }) => {
 
 SEO.defaultProps = {
     title: 'Cure a Casa',
-    description: 'Servizi infermieristici professionali a domicilio a Locarno e dintorni. Assistenza sanitaria qualificata direttamente a casa tua.',
-    keywords: 'infermiera a domicilio, cure a domicilio, infermiera Locarno, assistenza domiciliare, sanità Locarno, prelievi a domicilio, medicazioni',
+    description: 'Servizi infermieristici professionali a domicilio nel Locarnese e Ticino. Assistenza sanitaria qualificata direttamente a casa tua.',
+    keywords: 'infermiera a domicilio, cure a domicilio, infermiera Locarno, assistenza domiciliare, sanità Ticino, prelievi a domicilio, medicazioni',
 };
 
 export default SEO;

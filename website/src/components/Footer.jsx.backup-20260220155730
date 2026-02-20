@@ -13,7 +13,7 @@ const Footer = () => {
                             <img src="/logo-text.png" alt="Cure a Casa" className="h-10 w-auto" />
                         </div>
                         <p className="text-slate-500 text-sm leading-relaxed max-w-xs">
-                            Servizi infermieristici professionali e dedicati a Locarno e dintorni.
+                            Servizi infermieristici professionali e dedicati nel Canton Ticino.
                             La tua salute è la mia priorità.
                         </p>
                     </div>
@@ -35,7 +35,7 @@ const Footer = () => {
                         <ul className="space-y-3 text-sm">
                             <li className="flex items-start gap-3 text-slate-500">
                                 <MapPin className="h-5 w-5 text-secondary-600 shrink-0" />
-                                <span>Locarno e dintorni, Svizzera</span>
+                                <span>Ticino, Svizzera</span>
                             </li>
                             <li className="flex items-center gap-3 text-slate-500">
                                 <Phone className="h-5 w-5 text-secondary-600 shrink-0" />

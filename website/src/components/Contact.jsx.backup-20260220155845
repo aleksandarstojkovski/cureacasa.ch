@@ -53,7 +53,7 @@ const Contact = () => {
         <section id="contact" className="py-16 md:py-24 bg-white">
             <SEO
                 title="Contatti - Infermiera a Domicilio"
-                description="Contatta Natasha Maslarova per cure infermieristiche a domicilio a Locarno e dintorni. Prenota una visita o richiedi informazioni sui servizi assistenziali."
+                description="Contatta Natasha Maslarova per cure infermieristiche a domicilio a Locarno e in Ticino. Prenota una visita o richiedi informazioni sui servizi assistenziali."
                 keywords="contatti infermiera, prenota visita domicilio, telefono infermiera Locarno, email assistenza domiciliare"
                 canonical="https://cureacasa.ch/contact"
             />
@@ -94,7 +94,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-slate-900">Zona Operativa</h4>
-                                    <p className="text-slate-600">Locarno e dintorni, Svizzera</p>
+                                    <p className="text-slate-600">Canton Ticino, Svizzera</p>
                                 </div>
                             </div>
                         </div>
