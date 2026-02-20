@@ -1,5 +1,5 @@
 import React from 'react';
-import { Stethoscope, HeartPulse, Activity, UserCheck, Syringe, ClipboardList, Users } from 'lucide-react';
+import { Stethoscope, HeartPulse, Activity, UserCheck, Syringe, ClipboardList } from 'lucide-react';
 import SEO from './SEO';
 
 const Services = () => {
@@ -25,14 +25,14 @@ const Services = () => {
             description: "Controllo costante di pressione, glicemia e altri parametri vitali essenziali."
         },
         {
+            icon: <UserCheck className="h-8 w-8 text-primary-600" />,
+            title: "Valutazione e Pianificazione",
+            description: "Analisi dei bisogni del paziente e pianificazione interventi assistenziali personalizzati."
+        },
+        {
             icon: <ClipboardList className="h-8 w-8 text-primary-600" />,
             title: "Consulenza e Supporto",
             description: "Educazione sanitaria al paziente e ai familiari per una gestione autonoma e sicura."
-        },
-        {
-            icon: <Users className="h-8 w-8 text-primary-600" />,
-            title: "Collaborazioni Interdisciplinari",
-            description: "Collaborazioni con fisioterapisti, ergoterapisti, medici ed altri professionisti per garantire una presa a carico olistica."
         }
     ];
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Activity, Stethoscope, MessageCircle, Phone } from 'lucide-react';
+import { ArrowRight, Activity, Stethoscope, MessageCircle, Phone, Check } from 'lucide-react';
 import SEO from './SEO';
 
 const Hero = () => {
@@ -9,7 +9,7 @@ const Hero = () => {
             <SEO
                 title="Infermiera a Domicilio Locarno e Ticino"
                 description="Servizi infermieristici professionali a domicilio a Locarno e in tutto il Ticino. Cure personalizzate, iniezioni, medicazioni e assistenza sanitaria qualificata direttamente a casa tua."
-                keywords="infermiera a domicilio, infermiere Locarno, cure a domicilio Ticino, assistenza domiciliare, sanità a casa, iniezioni a domicilio, medicazioni"
+                keywords="infermiera a domicilio, infermiera Locarno, cure a domicilio Ticino, assistenza domiciliare, sanità a casa, iniezioni a domicilio, medicazioni"
                 canonical="https://cureacasa.ch/"
             />
             {/* Background Decorative Elements */}
@@ -34,9 +34,15 @@ const Hero = () => {
 
                     {/* Right Column (Content) */}
                     <div className="w-full lg:w-2/3 lg:pl-12">
-                        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white text-primary-600 text-sm font-medium mb-6 shadow-sm border border-primary-100">
-                            <Activity className="h-4 w-4" />
-                            <span>Infermiere Indipendente in Ticino</span>
+                        <div className="flex flex-col items-start gap-3 mb-6">
+                            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white text-primary-600 text-sm font-medium shadow-sm border border-primary-100">
+                                <Activity className="h-4 w-4" />
+                                <span>Infermiera Indipendente in Ticino</span>
+                            </div>
+                            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-sm font-medium shadow-sm border border-emerald-200">
+                                <Check className="h-4 w-4 text-emerald-600" />
+                                <span>Riconosciuta dalla cassa malati base (LAMal)</span>
+                            </div>
                         </div>
 
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-900 tracking-tight mb-6">

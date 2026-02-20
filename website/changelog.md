@@ -18,3 +18,9 @@ Date | Operation | File | Backup | Description
 2026-02-17 23:29:00 | MODIFY | index.html | index.html.backup-20260217232906 | Updated favicon to use logo-icon.png
 2026-02-17 23:33:00 | MODIFY | src/components/Contact.jsx | src/components/Contact.jsx.backup-20260217233306 | Integrated EmailJS into the contact form with validation and status feedback
 2026-02-18 00:09:00 | MODIFY | Multiple Files | Various Backups | Changed 'Infermiere' to 'Infermiera' in Hero, SEO components, and index.html
+2026-02-20 15:46:00 - Modified Hero.jsx: Added LAMal recognition badge with green check icon. Backup: Hero.jsx.backup-20260220154530
+2026-02-20 15:46:33 - Modified Hero.jsx: Set badges to vertical layout (flex-col). Backup: Hero.jsx.backup-20260220154617
+2026-02-20 15:47:30 - Modified Hero.jsx: Made the border of the LAMal badge more visible (border-emerald-200). Backup: Hero.jsx.backup-20260220154715
+2026-02-20 15:52:00 - Modified Services.jsx: Added Collaborazioni Interdisciplinari service box. Backup: Services.jsx.backup-20260220155100
+2026-02-20 15:53:00 - Modified Services.jsx: Removed 'Valutazione e Pianificazione' service box. Backup: Services.jsx.backup-20260220155230
+2026-02-20 15:53:15 - Modified Hero.jsx: Matched LAMal badge border with the other badge (border-primary-100). Backup: Hero.jsx.backup-20260220155250
