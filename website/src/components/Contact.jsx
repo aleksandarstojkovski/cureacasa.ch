@@ -55,7 +55,7 @@ const Contact = () => {
                 title="Contatti - Infermiera a Domicilio"
                 description="Contatta Natasha Maslarova per cure infermieristiche a domicilio a Locarno e dintorni. Prenota una visita o richiedi informazioni sui servizi assistenziali."
                 keywords="contatti infermiera, prenota visita domicilio, telefono infermiera Locarno, email assistenza domiciliare"
-                canonical="https://cureacasa.ch/contact"
+                canonical="https://cureacasa.ch/contatti"
             />
             <div className="container mx-auto px-4 md:px-6">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">

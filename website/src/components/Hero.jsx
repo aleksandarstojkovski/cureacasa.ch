@@ -56,7 +56,7 @@ const Hero = () => {
 
                         <div className="flex flex-col sm:flex-row gap-4 mb-8">
                             <Link
-                                to="/contact"
+                                to="/contatti"
                                 className="inline-flex justify-center items-center px-8 py-4 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors font-semibold shadow-lg shadow-primary-200"
                             >
                                 Prenota una Visita

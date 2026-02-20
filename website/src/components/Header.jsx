@@ -17,9 +17,9 @@ const Header = () => {
                 {/* Desktop Navigation */}
                 <nav className="hidden md:flex items-center gap-8">
                     <Link to="/" className="text-slate-600 hover:text-primary-700 font-medium transition-colors">Home</Link>
-                    <Link to="/about" className="text-slate-600 hover:text-primary-700 font-medium transition-colors">Chi Sono</Link>
-                    <Link to="/services" className="text-slate-600 hover:text-primary-700 font-medium transition-colors">Servizi</Link>
-                    <Link to="/contact" className="px-4 py-2 bg-primary-600 text-white rounded-md hover:bg-primary-700 transition-colors flex items-center gap-2 font-medium">
+                    <Link to="/chi-sono" className="text-slate-600 hover:text-primary-700 font-medium transition-colors">Chi Sono</Link>
+                    <Link to="/servizi" className="text-slate-600 hover:text-primary-700 font-medium transition-colors">Servizi</Link>
+                    <Link to="/contatti" className="px-4 py-2 bg-primary-600 text-white rounded-md hover:bg-primary-700 transition-colors flex items-center gap-2 font-medium">
                         <Phone className="h-4 w-4" />
                         Contatti
                     </Link>
@@ -45,21 +45,21 @@ const Header = () => {
                         Home
                     </Link>
                     <Link
-                        to="/about"
+                        to="/chi-sono"
                         className="text-slate-600 hover:text-teal-700 py-2 border-b border-slate-50"
                         onClick={() => setIsMenuOpen(false)}
                     >
                         Chi Sono
                     </Link>
                     <Link
-                        to="/services"
+                        to="/servizi"
                         className="text-slate-600 hover:text-teal-700 py-2 border-b border-slate-50"
                         onClick={() => setIsMenuOpen(false)}
                     >
                         Servizi
                     </Link>
                     <Link
-                        to="/contact"
+                        to="/contatti"
                         className="text-primary-700 font-medium py-2 flex items-center gap-2"
                         onClick={() => setIsMenuOpen(false)}
                     >

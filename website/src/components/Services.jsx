@@ -42,7 +42,7 @@ const Services = () => {
                 title="Servizi Infermieristici a Domicilio"
                 description="Scopri i nostri servizi: cure di base, iniezioni, gestione ferite, monitoraggio parametri e consulenza sanitaria. Assistenza completa a domicilio."
                 keywords="servizi infermieristici, iniezioni domicilio, cura ferite, monitoraggio pressione, assistenza anziani casa"
-                canonical="https://cureacasa.ch/services"
+                canonical="https://cureacasa.ch/servizi"
             />
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center max-w-2xl mx-auto mb-16">

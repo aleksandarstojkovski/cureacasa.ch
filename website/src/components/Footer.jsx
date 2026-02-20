@@ -23,9 +23,9 @@ const Footer = () => {
                         <h3 className="font-semibold text-slate-800 mb-4">Collegamenti</h3>
                         <ul className="space-y-2 text-sm">
                             <li><a href="/" className="text-slate-500 hover:text-primary-700">Home</a></li>
-                            <li><a href="/about" className="text-slate-500 hover:text-primary-700">Chi Sono</a></li>
-                            <li><a href="/services" className="text-slate-500 hover:text-primary-700">Servizi</a></li>
-                            <li><a href="/contact" className="text-slate-500 hover:text-primary-700">Contatti</a></li>
+                            <li><a href="/chi-sono" className="text-slate-500 hover:text-primary-700">Chi Sono</a></li>
+                            <li><a href="/servizi" className="text-slate-500 hover:text-primary-700">Servizi</a></li>
+                            <li><a href="/contatti" className="text-slate-500 hover:text-primary-700">Contatti</a></li>
                         </ul>
                     </div>
 
