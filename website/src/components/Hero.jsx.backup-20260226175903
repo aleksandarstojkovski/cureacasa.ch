@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Activity, Stethoscope, MessageCircle, Phone, Check } from 'lucide-react';
 import SEO from './SEO';
 
 const Hero = () => {
+    const images = [
+        '/personale-1.jpg',
+        '/personale-2.jpg',
+    ];
+
+    // Select a random image index on component initialization
+    const [currentImageIndex] = useState(() => Math.floor(Math.random() * images.length));
+
     return (
         <section className="relative py-20 lg:py-32 bg-[#ecf5fa] overflow-hidden">
             <SEO
@@ -32,7 +40,7 @@ const Hero = () => {
                         <div className="relative max-w-sm mx-auto">
                             <div className="absolute inset-0 bg-primary-100 rounded-3xl transform -rotate-6"></div>
                             <img
-                                src="/personale-1.jpg"
+                                src={images[currentImageIndex]}
                                 alt="Natasha Maslarova"
                                 className="relative rounded-3xl shadow-2xl w-full object-cover aspect-[3/4] transition-opacity duration-300"
                             />

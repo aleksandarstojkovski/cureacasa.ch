@@ -45,3 +45,4 @@ Date | Operation | File | Backup | Description
 2026-02-26 17:37:14 | MODIFY | src/components/Contact.jsx, src/components/Footer.jsx | Multiple Backups | Updated operational zone to 'Locarno e dintorni, Ticino (CH)' for better clarity and consistency.
 2026-02-26 17:55:07 | MODIFY | src/components/Contact.jsx | src/components/Contact.jsx.backup-20260226175507 | Updated form field names to match EmailJS template requirements: name, time, email, and message.
 2026-02-26 17:56:40 | MODIFY | src/components/Contact.jsx | src/components/Contact.jsx.backup-20260226175640 | Renamed 'time' field to 'phone' to match requirements.
+2026-02-26 17:59:03 | MODIFY | src/components/Hero.jsx, src/components/About.jsx | Multiple Backups | Removed the randomization logic for photos as only one photo (personale-1.jpg) remains.
