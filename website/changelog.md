@@ -37,3 +37,4 @@ Date | Operation | File | Backup | Description
 2026-02-26 17:19:53 | MODIFY | src/components/About.jsx | About.jsx.backup-20260226171953 | Updated photo path to /personale-1.jpg (replacing deleted/renamed file).
 2026-02-26 17:21:23 | MODIFY | src/components/About.jsx | src/components/About.jsx.backup-20260226172123 | Implemented random photo selection logic for the About section.
 2026-02-26 17:22:08 | MODIFY | src/components/Contact.jsx, src/components/Footer.jsx | Multiple Backups | Made email and phone number clickable using mailto: and tel: links.
+2026-02-26 17:30:00 | MODIFY | src/components/Footer.jsx | src/components/Footer.jsx.backup-20260226173000 | Updated location to Locarno, Ticino (CH) in the footer.
