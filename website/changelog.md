@@ -43,3 +43,5 @@ Date | Operation | File | Backup | Description
 2026-02-26 17:32:21 | SEO | index.html, public/sitemap.xml, src/components/SEO.jsx | Multiple Backups | Enhanced SEO: set language to Italian, created sitemap.xml, and added Schema.org structured data (MedicalBusiness) for better search engine indexing.
 2026-02-26 17:34:57 | MODIFY | src/components/Contact.jsx, src/components/SEO.jsx | Multiple Backups | Removed opening hours from the Contact page and from the Schema.org structured data.
 2026-02-26 17:37:14 | MODIFY | src/components/Contact.jsx, src/components/Footer.jsx | Multiple Backups | Updated operational zone to 'Locarno e dintorni, Ticino (CH)' for better clarity and consistency.
+2026-02-26 17:55:07 | MODIFY | src/components/Contact.jsx | src/components/Contact.jsx.backup-20260226175507 | Updated form field names to match EmailJS template requirements: name, time, email, and message.
+2026-02-26 17:56:40 | MODIFY | src/components/Contact.jsx | src/components/Contact.jsx.backup-20260226175640 | Renamed 'time' field to 'phone' to match requirements.
