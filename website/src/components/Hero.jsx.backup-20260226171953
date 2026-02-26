@@ -7,6 +7,7 @@ const Hero = () => {
     const images = [
         '/personale-1.jpg',
         '/personale-2.jpg',
+        '/personale-3.jpg',
     ];
 
     // Select a random image index on component initialization

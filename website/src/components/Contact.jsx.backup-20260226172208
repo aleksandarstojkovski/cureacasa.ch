@@ -73,11 +73,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-slate-900">Telefono</h4>
-                                    <p className="text-slate-600">
-                                        <a href="tel:+41768180317" className="hover:text-primary-600 transition-colors">
-                                            +41 76 818 03 17
-                                        </a>
-                                    </p>
+                                    <p className="text-slate-600">+41 76 818 03 17</p>
                                     <p className="text-xs text-slate-400 mt-1">Lun - Ven, 08:00 - 18:00</p>
                                 </div>
                             </div>
@@ -88,11 +84,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-slate-900">Email</h4>
-                                    <p className="text-slate-600">
-                                        <a href="mailto:natasha@cureacasa.ch" className="hover:text-primary-600 transition-colors">
-                                            natasha@cureacasa.ch
-                                        </a>
-                                    </p>
+                                    <p className="text-slate-600">natasha@cureacasa.ch</p>
                                 </div>
                             </div>
 

@@ -26,3 +26,14 @@ Date | Operation | File | Backup | Description
 2026-02-20 15:53:15 - Modified Hero.jsx: Matched LAMal badge border with the other badge (border-primary-100). Backup: Hero.jsx.backup-20260220155250
 2026-02-20 16:00:00 - Global Update: Replaced 'Ticino' with 'Locarno e dintorni' across Hero, About, SEO, Footer, and Contact components.
 2026-02-20 16:05:00 - Global Update: Translated all URLs/routes to Italian (/chi-sono, /servizi, /contatti). Updated links and SEO canonicals across all components. Backup: *.backup-20260220160030
+2026-02-26 16:54:38 | MODIFY | src/components/About.jsx | src/components/About.jsx.backup-20260226165438 | Replaced profile image with foto_personale.jpg and moved file to public/
+2026-02-26 16:59:07 | MODIFY | src/components/Hero.jsx | src/components/Hero.jsx.backup-20260226165907 | Added personal photo image to home page Hero section.
+2026-02-26 17:01:08 | MODIFY | src/components/Hero.jsx, src/components/About.jsx | Multiple Backups | Changed image border color to primary blue (#00476b).
+2026-02-26 17:03:12 | MOVE/MODIFY | public/, src/components/Hero.jsx | Hero.jsx.backup-20260226170108 | Imported multiple personal photos, renamed to personale-1..5.jpg, and added dynamic photo switcher to Hero component.
+2026-02-26 17:06:22 | MODIFY | src/components/Hero.jsx, src/components/About.jsx | Multiple Backups | Removed the blue border from the personal photos as requested.
+2026-02-26 17:13:18 | MODIFY | src/components/Hero.jsx | Hero.jsx.backup-20260226171318 | Removed photo switcher button and implemented random photo selection from 3 images on page load.
+2026-02-26 17:13:18 | MODIFY | src/components/About.jsx | About.jsx.backup-20260226171318 | Updated photo path to /personale-3.jpg.
+2026-02-26 17:19:53 | MODIFY | src/components/Hero.jsx | Hero.jsx.backup-20260226171953 | Updated random photo logic to use only personale-1.jpg and personale-2.jpg.
+2026-02-26 17:19:53 | MODIFY | src/components/About.jsx | About.jsx.backup-20260226171953 | Updated photo path to /personale-1.jpg (replacing deleted/renamed file).
+2026-02-26 17:21:23 | MODIFY | src/components/About.jsx | src/components/About.jsx.backup-20260226172123 | Implemented random photo selection logic for the About section.
+2026-02-26 17:22:08 | MODIFY | src/components/Contact.jsx, src/components/Footer.jsx | Multiple Backups | Made email and phone number clickable using mailto: and tel: links.

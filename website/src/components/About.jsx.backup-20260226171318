@@ -1,14 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import SEO from './SEO';
 
 const About = () => {
-    const images = [
-        '/personale-1.jpg',
-        '/personale-2.jpg',
-    ];
-
-    const [currentImageIndex] = useState(() => Math.floor(Math.random() * images.length));
-
     return (
         <section id="about" className="py-16 md:py-24 bg-white">
             <SEO
@@ -23,7 +16,7 @@ const About = () => {
                         <div className="relative">
                             <div className="absolute inset-0 bg-primary-200 rounded-2xl transform rotate-3"></div>
                             <img
-                                src={images[currentImageIndex]}
+                                src="/foto_personale.jpg"
                                 alt="Natasha Maslarova"
                                 className="relative rounded-2xl shadow-xl w-full max-w-md mx-auto object-cover aspect-[3/4]"
                             />

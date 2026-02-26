@@ -1,16 +1,22 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Activity, Stethoscope, MessageCircle, Phone, Check } from 'lucide-react';
+import { ArrowRight, Activity, Stethoscope, MessageCircle, Phone, Check, RefreshCw } from 'lucide-react';
 import SEO from './SEO';
 
 const Hero = () => {
     const images = [
         '/personale-1.jpg',
         '/personale-2.jpg',
+        '/personale-3.jpg',
+        '/personale-4.jpg',
+        '/personale-5.jpg',
     ];
 
-    // Select a random image index on component initialization
-    const [currentImageIndex] = useState(() => Math.floor(Math.random() * images.length));
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    const nextImage = () => {
+        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    };
 
     return (
         <section className="relative py-20 lg:py-32 bg-[#ecf5fa] overflow-hidden">
@@ -44,6 +50,14 @@ const Hero = () => {
                                 alt="Natasha Maslarova"
                                 className="relative rounded-3xl shadow-2xl w-full object-cover aspect-[3/4] transition-opacity duration-300"
                             />
+                            {/* Photo Switcher Button */}
+                            <button
+                                onClick={nextImage}
+                                className="absolute -bottom-4 -right-4 bg-primary-600 text-white p-3 rounded-full shadow-lg hover:bg-primary-700 transition-colors z-20 group"
+                                title="Cambia Foto"
+                            >
+                                <RefreshCw className="h-6 w-6 group-hover:rotate-180 transition-transform duration-500" />
+                            </button>
                         </div>
                     </div>
 
