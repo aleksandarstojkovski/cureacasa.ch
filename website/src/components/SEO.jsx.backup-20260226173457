@@ -44,7 +44,19 @@ const SEO = ({ title, description, keywords, canonical }) => {
                         "latitude": 46.167,
                         "longitude": 8.794
                     },
-                    "description": "Servizi infermieristici professionali a domicilio a Locarno e dintorni. Natasha Maslarova, infermiera indipendente."
+                    "description": "Servizi infermieristici professionali a domicilio a Locarno e dintorni. Natasha Maslarova, infermiera indipendente.",
+                    "openingHoursSpecification": {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": [
+                            "Monday",
+                            "Tuesday",
+                            "Wednesday",
+                            "Thursday",
+                            "Friday"
+                        ],
+                        "opens": "08:00",
+                        "closes": "18:00"
+                    }
                 })}
             </script>
         </Helmet>

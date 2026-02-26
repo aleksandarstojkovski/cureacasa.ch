@@ -78,7 +78,7 @@ const Contact = () => {
                                             +41 76 818 03 17
                                         </a>
                                     </p>
-
+                                    <p className="text-xs text-slate-400 mt-1">Lun - Ven, 08:00 - 18:00</p>
                                 </div>
                             </div>
 
