@@ -84,11 +84,7 @@ const Hero = () => {
                                 </div>
                                 <div className="text-left">
                                     <p className="text-xs text-primary-500 font-semibold uppercase tracking-wider">Chiamami ora</p>
-                                    <p className="text-lg font-bold text-primary-800">
-                                        <a href="tel:+41768180317" className="hover:text-primary-600 transition-colors">
-                                            +41 76 818 03 17
-                                        </a>
-                                    </p>
+                                    <p className="text-lg font-bold text-primary-800">+41 76 818 03 17</p>
                                 </div>
                             </div>
                         </div>

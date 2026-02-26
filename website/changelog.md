@@ -38,3 +38,5 @@ Date | Operation | File | Backup | Description
 2026-02-26 17:21:23 | MODIFY | src/components/About.jsx | src/components/About.jsx.backup-20260226172123 | Implemented random photo selection logic for the About section.
 2026-02-26 17:22:08 | MODIFY | src/components/Contact.jsx, src/components/Footer.jsx | Multiple Backups | Made email and phone number clickable using mailto: and tel: links.
 2026-02-26 17:30:00 | MODIFY | src/components/Footer.jsx | src/components/Footer.jsx.backup-20260226173000 | Updated location to Locarno, Ticino (CH) in the footer.
+2026-02-26 17:31:24 | MODIFY | src/components/Hero.jsx | src/components/Hero.jsx.backup-20260226173124 | Made phone number clickable to start calls directly from the Home page.
+2026-02-26 17:31:24 | MODIFY | src/components/Contact.jsx | src/components/Contact.jsx.backup-20260226173124 | Standardized location format to 'Locarno, Ticino (CH)' for consistency with the footer.
